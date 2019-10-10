@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Class Quiz</title>
+</head>
+<body>
+	<!--Edit the html as appropriate-->
+	<div style="margin: 20% 30%;">
+		<h1>User Registration</h1>
+		<!--Process form submission on register.php-->
+		<form method='post' action='register.php'>
+			<label>Email</label>
+			<!-- only accept email format using standard html
+			-->
+			<input type="text" name="email" required><br>
+			<label>Password</label>
+			<!-- password is currently visible 
+				in form. hide the password to show like this "......"
+			-->
+			<input placeholder="Password" name='pwd' required> <br>
+			<input type="submit" value="Register" name="sub">
+		</form>
+	</div>
+</body>
+</html>
